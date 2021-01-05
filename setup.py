@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 import myproject
 
 setup(
-    name='myproject',
+    name=myproject.__name__,
     version=myproject.__version__,
     url='https://github.com/maet3608/minimal-python-project',
     author='Author name',
